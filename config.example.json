@@ -1,0 +1,39 @@
+{
+  "input_folder": "input",
+  "output_folder": "output",
+  "markup_percent": 0,
+  "manual_rates": {
+    "USD": null,
+    "EUR": null
+  },
+  "suppliers": [
+    {
+      "name": "АвтоДеталь",
+      "file": "avtodetal*.xlsx",
+      "header_row": 1,
+      "currency": "UAH",
+      "columns": {"article": "Артикул", "name": "Найменування", "brand": "Бренд", "price": "Ціна, грн", "stock": "Наявність"}
+    },
+    {
+      "name": "МоторЛюкс",
+      "file": "motorlux*.xlsx",
+      "header_row": 6,
+      "currency": "USD",
+      "columns": {"article": "A", "name": "B", "brand": "C", "price": "D", "stock": "E"}
+    },
+    {
+      "name": "ЄвроПартс",
+      "file": "europarts*.csv",
+      "header_row": 1,
+      "currency": "EUR",
+      "columns": {"article": "SKU", "name": "Name", "brand": "Brand", "price": "Price", "stock": "Stock"}
+    },
+    {
+      "name": "Запчастина Плюс",
+      "file": "zplus*.xlsx",
+      "header_row": 3,
+      "currency": "UAH",
+      "columns": {"article": "Кат. номер", "name": "Товар", "brand": "Марка", "price": "Роздріб", "stock": "Склад"}
+    }
+  ]
+}
